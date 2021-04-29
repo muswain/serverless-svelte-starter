@@ -4,7 +4,7 @@
   "description": "mono repo with serverless backend and svelte frontend",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "build": "tsc"
   },
   "workspaces": [
     "packages/*"
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/muswain/serverless-svelte-starter/issues"
   },
-  "homepage": "https://github.com/muswain/serverless-svelte-starter#readme"
+  "homepage": "https://github.com/muswain/serverless-svelte-starter#readme",
+  "devDependencies": {
+    "typescript": "latest"
+  }
 }

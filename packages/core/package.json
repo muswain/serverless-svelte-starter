@@ -1,0 +1,11 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "core utilities",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC"
+}
